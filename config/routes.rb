@@ -2,6 +2,10 @@ Rails.application.routes.draw do
   resources :pages
 
   get '/home' => 'pages#home'
+  get '/booking' => 'pages#booking6'
+  get '/book' => 'pages#booking10'
+  get '/discounts' => 'pages#discounts'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
